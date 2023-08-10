@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div>
+
+        {{indice+1}}. {{alumnoDeLista.nombre}} {{alumnoDeLista.apellido}} {{alumnoDeLista.cargo}} {{alumnoDeLista.salario}}.
+
+      </div>
+
+      <app-caracteristicas-alumno-c (caracteristicasAlumno)="agregarCaracteristica($event)"></app-caracteristicas-alumno-c>
+
+      <ul style="list-style: none;">
+        <li *ngFor="let caracteristica of arrayCaracteristicas">{{caracteristica}}</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
