@@ -1,9 +1,22 @@
 <div class="container">
   <div class="row">
     <div class="col">
+
       <div>
 
         {{indice+1}}. {{alumnoDeLista.nombre}} {{alumnoDeLista.apellido}} {{alumnoDeLista.cargo}} {{alumnoDeLista.salario}}.
+
+        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'1'}" style="margin-right: 20px;">
+
+          Actualiza
+
+        </a>
+
+        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'2'}">
+
+          Elimina 
+
+        </a>
 
       </div>
 

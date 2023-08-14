@@ -1,0 +1,13 @@
+#elimina:hover{
+    background-color:aquamarine;
+    color: black;
+    border-color: aquamarine;
+    box-shadow: 8px 10px 10px 1px rgba(0, 47, 255, 0.404);
+}
+
+#modifica:hover{
+    background-color:limegreen;
+    color: black;
+    border-color: limegreen;
+    box-shadow: 8px 10px 10px 1px rgba(221, 108, 43, 0.541);
+}
